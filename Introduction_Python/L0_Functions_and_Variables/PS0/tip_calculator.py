@@ -7,13 +7,11 @@ def main():
 
 # Transform the check to a money value
 def dollars_to_float(d):
-    d1 = d.removeprefix("$")
-    return float(d1)
+    return float(d.removeprefix("$"))
 
 # Transform the percentaje into a decimal number
 def percent_to_float(p):
-    p1 = p.removesuffix("%")
-    return float(p1) / 100
+    return float(p.removesuffix("%")) / 100
 
 # Call main
 main()
