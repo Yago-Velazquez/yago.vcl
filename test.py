@@ -1,1 +1,1 @@
-#this is a test
+print((lambda a, b: a + b)(int(input()), int(input())))
