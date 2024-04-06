@@ -9,7 +9,7 @@ def main():
             else:
                 grocery_list[item] += 1
         except EOFError:
-            brea
+            break
 
     for i in sorted(grocery_list):
         print(f"{grocery_list[i]} {i.upper()}")
